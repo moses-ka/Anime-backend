@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-w23$2$tu(b(3s88s50um3xqtqyki&vjt@^5z_3o^xm&$dk4&30'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -147,4 +147,4 @@ CORS_ALLOWED_ORIGINS = [
     "https://your-production-frontend-url",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
